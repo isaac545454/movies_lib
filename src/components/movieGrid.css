@@ -54,6 +54,7 @@
     }
     .movies-container div{
         padding: 0.5rem;
+        width: 40%;
     }
     .movies-container div h2{
         font-size: 0.7rem;
