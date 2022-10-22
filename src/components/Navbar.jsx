@@ -5,6 +5,7 @@ import './navbar.css'
 const navbar = ( ) =>{
     const [search, setSrarch] = useState("")
     const navigate = useNavigate()
+    
     const handleSubmit = (e)=>{
         e.preventDefault()
         if(!search) return
